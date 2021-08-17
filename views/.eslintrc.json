@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true
+    },
+    "rules": {
+        "no-restricted-globals": "off",
+        "no-alert": "off"
+    },
+    "plugins": [
+        "pug"
+    ],
+    "globals": {
+        "$": true,
+        "bootstrap": true,
+        "jQuery": true,
+        "bootgridInit": true,
+        "grid": true,
+        "addHeaderButton": true,
+        "tooltipInit": true,
+        "onDelete": true,
+        "onDownload": true,
+        "validateElement": true
+    }
+}
